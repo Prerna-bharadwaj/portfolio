@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c519db1bcf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <div id="header">
+          <div class="container"></div>
+           <nav>
+    
+            <ul id="sidemenu">
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact
+                </a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <div class="header-text">
+            <p>Engineering Student</p>
+            <h1>Hi, I'm <span>Prerna Sharma</span><br> from India</h1>
+           </div>
+
+      </div>
+      <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/prernap.png">
+                </div>
+                <div class="about-col-2">
+                    <h1  class="sub-title">About Me</h1>
+                    <p>I'm Prerna Sharma from India. Currently I'm pursuing b.tech from Sanskar colllege of engineering and technology,Ghaziabad. Currently I'm in 3rd year.
+                        I want to become an ux/ui designer.A student with creative and quick thinking as well
+                        as leadership qualities. Seeking a beginner role to enhance my technical
+                        knowledge. I'm eager to secure challenging roles in computer science
+                        engineering.<br>
+                        Particullary I have a greate intrest in the desiging, and I want to become an ux/ui designer,till now I have basic knowledge of figma the software used for the desiging nowadays.
+                         </p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            
+                         </div>  
+                         <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>figma</span><br> Software tool used for the ux/ui desiging</li>
+                                <li><span>c++</span><br> Programming language used for the APP development</li>
+                                <li><span>HTML/CSS/JS</span><br> languages used for web development(front end)</li>
+                                <li><span>Python</span><br>Programming language used for the APP development for backend also</li>
+                                
+                            </ul>
+                         </div>  
+                         <div class="tab-contents" id="Education">
+                            <p class="tab-links">Education</p>
+                            <ul>
+                                <li><span>2018</span><br> SBVM school hapur with 80.4%</li>
+                                <li><span>2020</span><br> SBVM school hapur with 81.2%</li>
+                                <li><span>HTML/CSS/JS</span><br> Sanskar college of engineering and technology,Ghaziabad</li>
+                                
+                            </ul>
+                         </div>                    
+                   
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- ------------services------------ -->
+       <div id="services">
+            <div class="container">
+                <h1 class="sub-title"> My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p> Design the web sites according to the user's need, design the user interface as well as user experience websites using HTML,CSS,JS Etc. so that the interface and the experience of the user while using the websites must be min blowing and so the we get the good feedback,if there is any issue regarding the design we just try to find the issue and resolve it so the user can experience the good thing at all.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-figma"></i>
+                        <h2>ui\ux Design</h2>
+                        <p>Ui/Ux desiging bassically user interface and user experience respectively,in ux/ui desiging we just design the layout of the website or the app how our website or the app look like using the defferent software then the coder codes the same as through ux/ui they know where they have to put button, tab and all </p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Design</h2>
+                        <p>There are lots of programming languages through which we can do the app development,through which we are able to provide the better app and the experience to our users.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <!-- -----------portfolio---------- -->
+       <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/images-_3_.png">
+                        <div class="layer">
+                            <h3>Tribute Page</h3>
+                            <p> The Tribute Page is made to show the Tribute towards the person, the page that I made it is designed as the tribute to the "Sir Mokshagundam Visvesvaraya" whose birthaday celebrated as the engineer's day every year.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/images-_1_.png">
+                        <div class="layer">
+                            <h3>Simple Calculator</h3>
+                            <p> Simple Calculator is made using the c++ programming languages,it is made to do caluclations like addition,substraction,multiplication,division Etc</p>
+                            <i class="fa-sharp fa-solid fa-link"></i>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/images-_2_.png">
+                        <div class="layer">
+                            <h3>Pilagrism Checker</h3>
+                            <p> You’re working on a paper and you’ve just written a line that seems kind of familiar. Did you read it somewhere while you were researching the topic? If you did, does that count as plagiarism? Now that you’re looking at it, there are a couple of other lines that you know you borrowed from somewhere. It is usefull to check the data is copied from somewhere or not basically usefull for PHD as students have to write the thesis,so the professers can check the thesis.</p>
+                            <i class="fa-sharp fa-solid fa-link"></i>                       
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="#" class="btn"> See More</a>
+            </div>
+       </div>
+
+
+<!-- --------contact-------- -->
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                   <h1 class="sub-title">Contact Me </h1>
+                   <p><a href="#"><i class="fa-solid fa-envelope"></i></a>prernasharma245101@gmail.com</p>
+                   <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    
+                    <div class="social-icons">
+
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"> <i class="fa-brands fa-square-instagram"></i></a>
+                     <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                     <a href="#"><i class="fa-brands fa-github"></i></a>
+                     <a href="" class="btn">Download CV</a>
+                    
+                </div>
+                <!-- <a href="" class="btn">Download CV</a>  -->
+                </div>
+                
+                <div class="contact-right">
+                    <form
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="emial" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+
+                    </form>
+                </div> 
+            </div>
+        </div>
+           <div class="copyright">
+            <p>copyright made by prerna Sharma</p>
+           </div>
+     </div>
+      <script>
+        var tablinks = document.getElementsByClassName(tab-links);        
+        var tabcontents = document.getElementsByClassName(tab-contents);        
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+            tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementsById(tabname).classlist.add(active-tab);
+        }
+      </script>
+
+      <script>
+        var sidemenu = document. getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+      </script>
+    
+</body>
+</html>
